@@ -47,15 +47,12 @@
         </section>
 
         <script>
-            var prevScrollpos = window.pageYOffset;
             window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
               if (window.pageYOffset < 25) {
                 document.getElementById("title-bar").style.top = "20px";
               } else {
                 document.getElementById("title-bar").style.top = "-70px";
               }
-              prevScrollpos = currentScrollPos;
             }
         </script>
     </body>
