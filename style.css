@@ -2,6 +2,10 @@ html {
     box-sizing: border-box;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+
 body {
     color: #444;
     background: linear-gradient(45deg, #FAA, rgb(136, 255, 162));
@@ -88,4 +92,5 @@ a {
     background-color: aliceblue;
     display: flex;
     z-index: 2;
+    transition: top 0.3s;
 }
